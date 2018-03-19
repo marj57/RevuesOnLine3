@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RevuesOnLine</string>
+    <string name="titre">Welcome to RevuesOnLine</string>
+    <string name="mot_de_passe">Password</string>
+    <string name="connexion">CONNECTION</string>
+    <string name="mail">Email</string>
+</resources>

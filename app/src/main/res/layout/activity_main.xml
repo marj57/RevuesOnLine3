@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.iut.revuesonline.MainActivity">
+
+
+    <TextView
+        android:id="@+id/tvtitre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/titre"
+        android:textColor="@android:color/holo_orange_light"
+        android:textColorLink="@android:color/holo_orange_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@android:color/holo_orange_light"
+        android:cursorVisible="true"
+        android:ems="13"
+        android:gravity="start"
+        android:hint="@string/mail"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:textColor="@android:color/black"
+        android:textColorLink="@android:color/holo_orange_light" />
+
+    <EditText
+        android:id="@+id/etmot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:gravity="start"
+        android:hint="@string/mot_de_passe"
+        android:inputType="textPassword"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/bjaune"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:gravity="center"
+        android:text="@string/connexion"
+        android:textSize="18sp" />
+
+</LinearLayout>

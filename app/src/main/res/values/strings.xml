@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RevuesOnLine</string>
+    <string name="titre">Bienvenue sur l\'application RevuesOnLine</string>
+    <string name="mot_de_passe">Mot de passe</string>
+    <string name="connexion">CONNEXION</string>
+    <string name="mail">Email</string>
+</resources>
