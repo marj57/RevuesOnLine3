@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private Button button;
-    private EditText mail, mot_de_passe;
+    private EditText mail, motDePasse;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,14 +19,14 @@ public class MainActivity extends AppCompatActivity {
 
         button = findViewById(R.id.bjaune); // j'initialise les widgets
         mail = findViewById(R.id.etemail);
-        mot_de_passe = findViewById(R.id.etmot);
+        motDePasse = findViewById(R.id.etmot);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) { // je mets en place le toast demandé pour l'exercice
-                Toast.makeText(getApplicationContext(),(String.format("tentative de connexion de %s", mail.getText().toString())),
-                        Toast.LENGTH_LONG).show();
-            }
-        });
     }
+
+    public void myButton(View view) {
+        String toast = String.format(getString(R.string.text)) + mail.getText().toString();
+        Toast.makeText(getApplicationContext(), toast, Toast.LENGTH_LONG).show();
+    }
+
+
 }

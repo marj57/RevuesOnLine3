@@ -4,4 +4,23 @@
     <string name="mot_de_passe">Mot de passe</string>
     <string name="connexion">CONNEXION</string>
     <string name="mail">Email</string>
+    <string name="text">Tentative de connexion de \ </string>
+    <string name="ref">Référence</string>
+    <string name="revue">Titre</string>
+    <string name="des">Description</string>
+    <string name="monnaie">Frais</string>
+    <string name="add">Ajouter</string>
+
+    <string name="periode_prompt">Période</string>
+    <string-array name="name">
+        <item>Quotidien</item>
+        <item>Hebdomadaire</item>
+        <item>Bimensuel</item>
+        <item>Mensuel</item>
+        <item>Trimestriel</item>
+    </string-array>
+
+    <string name="all_missing">Il faut remplir le titre et les frais !</string>
+    <string name="ok">%1$s ajouté ( %2$s euros )</string>
+
 </resources>
